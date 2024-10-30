@@ -155,7 +155,8 @@ Also look at how to run tests via the command-line and the parallel runner.
 # JUnit HTML report
 When you use the JUnit runner - after the execution of each feature, an HTML report is output to the target/karate-reports folder and the full path will be printed to the console (see video).
 
-# html report: (paste into browser to view)
+
+html report: (paste into browser to view)
 -----------------------------------------
 file:///projects/myproject/target/karate-reports/mypackage.myfeature.html
 You can easily select (double-click), copy and paste this file: URL into your browser address bar. This report is useful for troubleshooting and debugging a test because all requests and responses are shown in-line with the steps, along with error messages and the output of print statements. Just re-fresh your browser window if you re-run the test.
