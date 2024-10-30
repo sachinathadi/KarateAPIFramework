@@ -1,11 +1,11 @@
 # KarateAPIFramework
 Sample framework for Karate API automation
 
-Getting Started
+# Getting Started
 Karate requires at least Java 17 and then either Maven, Gradle, or a Java IDE that embeds either to be installed.
 Recommended IDE : Eclipse
 
-Maven
+# Maven
 All you need is available in the karate-core artifact. You can run tests with this directly, but teams can choose the JUnit variant (shown below) that pulls in JUnit 5 and slightly improves the in-IDE experience.
 
 <dependency>
@@ -16,7 +16,7 @@ All you need is available in the karate-core artifact. You can run tests with th
 </dependency>
 
 
-Quickstart
+# Quickstart
 It may be easier for you to use the Karate Maven archetype to create a skeleton project with one command. You can then skip the next few sections, as the pom.xml, recommended directory structure, sample test and JUnit 5 runners - will be created for you.
 
 
